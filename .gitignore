@@ -1,0 +1,29 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Build outputs
+target/
+dist/
+build/
+
+# Java and IDE
+*.class
+*.log
+.idea/
+.vscode/
+*.iml
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test and coverage reports
+coverage/
+.nyc_output/
